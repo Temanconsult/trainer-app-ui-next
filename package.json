@@ -18,7 +18,7 @@
     "lint:prettier": "pretty-quick",
     "pretest": "npm run lint",
     "semantic-release": "npx semantic-release",
-    "start": "next start",
+    "start": "next start -p $PORT",
     "test": "jest --coverage",
     "test:badges": "jest-coverage-badges",
     "docker": "npm run docker:build"
