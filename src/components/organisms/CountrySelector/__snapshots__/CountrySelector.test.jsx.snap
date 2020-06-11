@@ -1,0 +1,47 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`CountrySelector should render and let you choose a country 1`] = `
+<DocumentFragment>
+  <div
+    class="country-selector"
+    data-testid="selector-container"
+  >
+    <div>
+      Choose a country!
+    </div>
+    <select
+      data-testid="countries"
+    >
+      <option
+        data-testid="country-option"
+        value="US"
+      >
+        United States
+      </option>
+      <option
+        data-testid="country-option"
+        value="FR"
+      >
+        France
+      </option>
+      <option
+        data-testid="country-option"
+        value="CA"
+      >
+        Canada
+      </option>
+    </select>
+    <div
+      data-testid="chosen-text"
+    >
+      Your chosen country is:
+    </div>
+    <div
+      class="country"
+      data-testid="no-data-div"
+    >
+      No Country Data
+    </div>
+  </div>
+</DocumentFragment>
+`;

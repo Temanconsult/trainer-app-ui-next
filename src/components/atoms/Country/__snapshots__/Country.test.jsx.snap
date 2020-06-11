@@ -1,0 +1,20 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Country should render a Country 1`] = `
+<DocumentFragment>
+  <div
+    class="country"
+  >
+    <div
+      data-testid="country-name"
+    >
+      United States
+    </div>
+    <div
+      data-testid="country-emoji"
+    >
+      E
+    </div>
+  </div>
+</DocumentFragment>
+`;

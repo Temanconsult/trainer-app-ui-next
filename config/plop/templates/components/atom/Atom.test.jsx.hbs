@@ -1,0 +1,10 @@
+import React from 'react'
+import { render } from '@testing-library/react'
+import {{properCase componentName}} from '.'
+
+describe('{{properCase componentName}}', () => {
+  it('creates {{componentDescription}}', () => {
+    const { asFragment } = render(<{{properCase componentName}} />)
+    expect(asFragment()).toMatchSnapshot()
+  })
+})

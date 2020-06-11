@@ -1,0 +1,32 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Pages:Homepage renders the homepage 1`] = `
+<DocumentFragment>
+  <div
+    class="jsx-2781750882 text-center"
+  >
+    <p
+      class="jsx-2781750882"
+    >
+      Welcome to the boilerplate React app using NextJS!
+    </p>
+    <p
+      class="jsx-2781750882"
+    >
+      Try navigating to 
+      <a
+        href="/example/second-page"
+      >
+        another page
+      </a>
+       and observe the URL changing
+    </p>
+    <div
+      class="country-selector"
+      data-testid="loading-div"
+    >
+      Loading Countries...
+    </div>
+  </div>
+</DocumentFragment>
+`;

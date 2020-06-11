@@ -1,0 +1,11 @@
+# 3rd party libraries
+node_modules
+
+# IDE/OS files
+.vscode
+
+# Compiled build files, dev files, and reports
+build
+.next
+coverage
+out

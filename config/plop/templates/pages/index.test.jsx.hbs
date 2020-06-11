@@ -1,0 +1,10 @@
+import React from 'react'
+import { render } from '@testing-library/react'
+import {{properCase pageName}} from '{{relativeSegments pagePath}}../../../pages/{{pagePath}}'
+
+describe('Pages:{{properCase pageName}}', () => {
+  it('renders the {{pageName}} page', () => {
+    const { asFragment } = render(<{{properCase pageName}} />)
+    expect(asFragment()).toMatchSnapshot()
+  })
+})
