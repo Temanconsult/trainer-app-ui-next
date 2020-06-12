@@ -1,6 +1,11 @@
+/* eslint-disable */
+
 import React from 'react'
 import PropTypes from 'prop-types'
 import { withApollo } from '../utils/apollo'
+
+import LayoutWrapper from '../components/atoms/LayoutWrapper'
+import '../style/app.scss'
 // uncomment below if using getInitialProps
 // import App from 'next/app'
 
@@ -12,8 +17,12 @@ function MyApp({ Component, pageProps }) {
   /* All Global Wrappers & Providers Go Here, for example:
    * state management, CSS themes, tracker provider, apollo
    */
-  // eslint-disable-next-line
-  return <Component {...pageProps} />
+
+  return (
+    <LayoutWrapper>
+      <Component {...pageProps} />
+    </LayoutWrapper>
+  )
 }
 
 // Only uncommet this method if you have blocking data requirements for
@@ -31,11 +40,11 @@ function MyApp({ Component, pageProps }) {
 MyApp.propTypes = {
   Component: PropTypes.oneOfType([PropTypes.node, PropTypes.func]).isRequired,
   // eslint-disable-next-line
-  pageProps: PropTypes.object
+  pageProps: PropTypes.object,
 }
 
 MyApp.defaultProps = {
-  pageProps: undefined
+  pageProps: undefined,
 }
 
 export default withApollo(MyApp)

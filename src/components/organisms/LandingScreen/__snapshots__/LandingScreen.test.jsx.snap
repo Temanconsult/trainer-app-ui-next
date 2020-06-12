@@ -1,6 +1,6 @@
 // Jest Snapshot v1, https://goo.gl/fbAQLP
 
-exports[`Pages:Homepage renders the homepage 1`] = `
+exports[`LandingScreen creates landing screen 1`] = `
 <DocumentFragment>
   <nav
     class="mt-sm-4 navbar navbar-expand-lg navbar-light bg-light"

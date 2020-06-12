@@ -1,0 +1,24 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`LandingScreenJumbotron creates landing screen jumbotron 1`] = `
+<DocumentFragment>
+  <div
+    class="jumbotron"
+  >
+    <h1>
+      Learn with Ease and at your own pace
+    </h1>
+    <p>
+      This is a simple hero unit, a simple jumbotron-style component for calling extra attention to featured content or information.
+    </p>
+    <p>
+      <button
+        class="btn btn-primary"
+        type="button"
+      >
+        Learn more
+      </button>
+    </p>
+  </div>
+</DocumentFragment>
+`;
