@@ -120,11 +120,11 @@
   "private": true,
   "repository": {
     "type": "git",
-    "url": "git+ssh://git@github.com/example/example.git"
+    "url": "git@github.com:Temanconsult/trainer-app-ui-next.git"
   },
-  "homepage": "https://github.com/amclin/trainer-app-ui-next",
+  "homepage": "https://github.com:Temanconsult/trainer-app-ui-next",
   "bugs": {
-    "url": "https://github.com/amclin/trainer-app-ui-next/issues"
+    "url": "https://github.com:Temanconsult/trainer-app-ui-next/issues"
   },
   "dependencies": {
     "@apollo/react-hooks": "^3.1.5",
