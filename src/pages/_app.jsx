@@ -1,3 +1,5 @@
+/* eslint-disable */
+
 import React from 'react'
 import PropTypes from 'prop-types'
 import { withApollo } from '../utils/apollo'
@@ -15,7 +17,7 @@ function MyApp({ Component, pageProps }) {
   /* All Global Wrappers & Providers Go Here, for example:
    * state management, CSS themes, tracker provider, apollo
    */
-  // eslint-disable-next-line
+
   return (
     <LayoutWrapper>
       <Component {...pageProps} />

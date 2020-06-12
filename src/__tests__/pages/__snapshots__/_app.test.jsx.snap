@@ -5,11 +5,23 @@ exports[`App controls the root NextJS app 1`] = `
   <div
     data-testid="apollo-wrapper"
   >
-    <div
-      data-testid="mock-component"
+    <main
+      class="container-fluid"
     >
-      Ok!
-    </div>
+      <div
+        class="row"
+      >
+        <div
+          class="col"
+        >
+          <div
+            data-testid="mock-component"
+          >
+            Ok!
+          </div>
+        </div>
+      </div>
+    </main>
   </div>
 </DocumentFragment>
 `;

@@ -4,7 +4,11 @@ import LayoutWrapper from '.'
 
 describe('LayoutWrapper', () => {
   it('creates layout wrapper', () => {
-    const { asFragment } = render(<LayoutWrapper />)
+    const { asFragment } = render(
+      <LayoutWrapper>
+        <div />
+      </LayoutWrapper>
+    )
     expect(asFragment()).toMatchSnapshot()
   })
 })
