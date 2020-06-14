@@ -1,5 +1,5 @@
 describe('next.config.js', () => {
-  const exampleApiGateway = 'https://countries.trevorblades.com/'
+  const localApiGateway = 'http://localhost:8000/v2/graphql'
 
   afterEach(() => {
     // to re-import next.config with new process.env
@@ -14,7 +14,7 @@ describe('next.config.js', () => {
     // eslint-disable-next-line
     expect(process.env.APP_ENV).toNotExist
     expect(config.publicRuntimeConfig.appEnv).toEqual('default')
-    expect(config.publicRuntimeConfig.apiGatewayUrl).toEqual(exampleApiGateway)
+    expect(config.publicRuntimeConfig.apiGatewayUrl).toEqual(localApiGateway)
   })
   it('should render a correct env object', () => {
     process.env.APP_ENV = 'test'
@@ -23,6 +23,6 @@ describe('next.config.js', () => {
 
     expect(process.env.APP_ENV).toBe('test')
     expect(config1.publicRuntimeConfig.appEnv).toEqual('test')
-    expect(config1.publicRuntimeConfig.apiGatewayUrl).toEqual(exampleApiGateway)
+    expect(config1.publicRuntimeConfig.apiGatewayUrl).toEqual(localApiGateway)
   })
 })

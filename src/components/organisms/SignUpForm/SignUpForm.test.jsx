@@ -1,9 +1,9 @@
 import React from 'react'
 import { render } from '@testing-library/react'
-import SignUp from '../../../pages/signup'
+import SignUp from '.'
 
-xdescribe('Pages:SignUp', () => {
-  it('renders the Sign Up page', () => {
+xdescribe('SignUp', () => {
+  it('creates sign up content', () => {
     const { asFragment } = render(<SignUp />)
     expect(asFragment()).toMatchSnapshot()
   })

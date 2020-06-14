@@ -21,13 +21,13 @@ let apolloClient = null
  */
 function createApolloClient(initialState = {}) {
   return new ApolloClient({
-    ssrMode: false, // !process.browser
+    ssrMode: true, // !process.browser
     link: new HttpLink({
       uri: apiGatewayUrl, // Server URL (must be absolute)
       // credentials: 'same-origin', // Additional fetch() options like `credentials` or `headers`
-      fetch
+      fetch,
     }),
-    cache: new InMemoryCache().restore(initialState)
+    cache: new InMemoryCache().restore(initialState),
   })
 }
 
@@ -71,7 +71,7 @@ export function withApollo(PageComponent) {
   }
 
   if (PageComponent.getInitialProps) {
-    WithApollo.getInitialProps = async ctx => {
+    WithApollo.getInitialProps = async (ctx) => {
       // Initialize ApolloClient, add it to the ctx object so
       // we can use it in `PageComponent.getInitialProp`.
       // eslint-disable-next-line
@@ -94,7 +94,7 @@ export function withApollo(PageComponent) {
 
       return {
         ...pageProps,
-        apolloState
+        apolloState,
       }
     }
   }

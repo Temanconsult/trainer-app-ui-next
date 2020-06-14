@@ -1,11 +1,11 @@
 import React, { Component } from 'react'
 import { render } from '@testing-library/react'
-import { withApollo } from './apollo'
+import { withApollo } from '.'
 
 jest.mock('next/config', () => () => ({
   publicRuntimeConfig: {
-    apiGatewayUrl: process.env.API_GATEWAY_URL
-  }
+    apiGatewayUrl: process.env.API_GATEWAY_URL,
+  },
 }))
 
 // eslint-disable-next-line
