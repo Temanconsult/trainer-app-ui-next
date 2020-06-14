@@ -1,0 +1,12 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Pages:Confirmation renders the confirmation page 1`] = `
+<DocumentFragment>
+  <p>
+    Boilerplate content for confirmation
+  </p>
+  <p>
+    Coming Soon
+  </p>
+</DocumentFragment>
+`;

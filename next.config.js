@@ -3,10 +3,10 @@ require('dotenv').config()
 const withSass = require('@zeit/next-sass')
 
 // Place all configs here so that NextJS can properly control configs
-const exampleApiGateway = 'https://countries.trevorblades.com/'
+const localApiGateway = 'http://localhost:8000/v2/graphql'
 const config = {
   appEnv: process.env.APP_ENV || 'default',
-  apiGatewayUrl: process.env.API_GATEWAY_URL || exampleApiGateway,
+  apiGatewayUrl: process.env.API_GATEWAY_URL || localApiGateway,
 }
 
 module.exports = withSass({

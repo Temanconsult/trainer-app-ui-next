@@ -3,7 +3,7 @@
 exports[`LayoutWrapper creates layout wrapper 1`] = `
 <DocumentFragment>
   <main
-    class="container-fluid"
+    class="p-sm-4 container-fluid"
   >
     <div
       class="row"

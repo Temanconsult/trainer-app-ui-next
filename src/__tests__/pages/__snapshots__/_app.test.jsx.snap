@@ -6,7 +6,7 @@ exports[`App controls the root NextJS app 1`] = `
     data-testid="apollo-wrapper"
   >
     <main
-      class="container-fluid"
+      class="p-sm-4 container-fluid"
     >
       <div
         class="row"

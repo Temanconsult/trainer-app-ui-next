@@ -4,7 +4,7 @@ import { Container, Row, Col } from 'react-bootstrap'
 
 const LayoutWrapper = ({ children }) => {
   return (
-    <Container fluid as="main">
+    <Container fluid as="main" className="p-sm-4">
       <Row>
         <Col>{children}</Col>
       </Row>
