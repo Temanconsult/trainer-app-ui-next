@@ -7,16 +7,6 @@ describe('next.config.js', () => {
   })
 
   it('should render a correct env object', () => {
-    process.env.APP_ENV = ''
-    // eslint-disable-next-line
-    const config = require('../next.config')
-
-    // eslint-disable-next-line
-    expect(process.env.APP_ENV).toNotExist
-    expect(config.publicRuntimeConfig.appEnv).toEqual('default')
-    expect(config.publicRuntimeConfig.apiGatewayUrl).toEqual(localApiGateway)
-  })
-  it('should render a correct env object', () => {
     process.env.APP_ENV = 'test'
     // eslint-disable-next-line
     const config1 = require('../next.config')
