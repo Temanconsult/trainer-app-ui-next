@@ -11,7 +11,7 @@
     "build": "next build",
     "docker:build": "docker build -t trainer-app-ui-next .",
     "export": "next export",
-    "dev": "next",
+    "dev": "APP_ENV=development next",
     "generate": "plop",
     "lint": "npm run lint:eslint",
     "lint:eslint": "eslint --ignore-path .gitignore \"**/*.{jsx,js}\"",

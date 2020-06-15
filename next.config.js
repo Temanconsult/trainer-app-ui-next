@@ -1,12 +1,10 @@
 // load .env file if present, takes an object with path argument if needed
-require('dotenv').config()
+require('dotenv').config({ path: `env/.${process.env.APP_ENV}.env` })
 const withSass = require('@zeit/next-sass')
 
-// Place all configs here so that NextJS can properly control configs
-const localApiGateway = 'http://localhost:8000/v2/graphql'
 const config = {
-  appEnv: process.env.APP_ENV || 'default',
-  apiGatewayUrl: process.env.API_GATEWAY_URL || localApiGateway,
+  appEnv: process.env.APP_ENV,
+  apiGatewayUrl: process.env.API_GATEWAY_URL,
 }
 
 module.exports = withSass({
