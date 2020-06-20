@@ -1,16 +1,15 @@
 import React from 'react'
-import Link from 'next/link'
+import { Row, Col } from 'react-bootstrap'
+import LoginForm from '../../components/organisms/LoginForm'
 
 const Login = () => {
   return (
-    <>
-      <p>Boilerplate content for Login</p>
-      <p>
-        Try navigating to
-        <Link href="/">the homepage</Link>
-        and observe the URL changing
-      </p>
-    </>
+    <Row>
+      <Col sm={0} md={0} lg={6} />
+      <Col sm={12} md={12} lg={6}>
+        <LoginForm />
+      </Col>
+    </Row>
   )
 }
 

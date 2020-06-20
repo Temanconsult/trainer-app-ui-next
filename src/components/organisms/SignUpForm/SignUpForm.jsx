@@ -1,4 +1,5 @@
 import React, { useEffect, useState } from 'react'
+import Link from 'next/link'
 import { useMutation } from '@apollo/react-hooks'
 import { Form, Button, Col, InputGroup, Alert, Row } from 'react-bootstrap'
 import { Formik } from 'formik'
@@ -26,8 +27,6 @@ const SignUpForm = () => {
       setShowConfirmation(true)
     }
   }, [data])
-
-  // if (data) console.log(data.createUser.error, 'errors')
 
   return (
     <>
@@ -206,6 +205,11 @@ const SignUpForm = () => {
               </Button>
             </Col>
           </Row>
+
+          <Col className="mt-sm-2">
+            <span>Already have an account? </span>
+            <Link href="/login">Login</Link>
+          </Col>
         </>
       )}
     </>
