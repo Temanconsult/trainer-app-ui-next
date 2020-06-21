@@ -1,4 +1,8 @@
 @import '~bootstrap/scss/bootstrap';
+@import './landing-screen/jumbotron.scss';
+@import './footer.scss';
+@import './landing-screen/header.scss';
+@import './landing-screen/courses.scss';
 
 .navbar-nav {
   button {

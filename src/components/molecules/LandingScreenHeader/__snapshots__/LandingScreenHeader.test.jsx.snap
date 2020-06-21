@@ -3,12 +3,16 @@
 exports[`LandingScreenHeader creates landingg screen top bar 1`] = `
 <DocumentFragment>
   <nav
-    class="mt-sm-4 navbar navbar-expand-lg navbar-light bg-light"
+    class="mt-sm-4 landing-screen-header navbar navbar-expand-lg navbar-light bg-light"
   >
     <span
-      class="navbar-brand"
+      class="logo navbar-brand"
     >
-      Best Tutors
+      <img
+        alt="best tutor"
+        src="file mock"
+        type="image/svg+xml"
+      />
     </span>
     <button
       aria-controls="basic-navbar-nav"

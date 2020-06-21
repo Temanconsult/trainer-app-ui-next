@@ -3,12 +3,16 @@
 exports[`Pages:Homepage renders the homepage 1`] = `
 <DocumentFragment>
   <nav
-    class="mt-sm-4 navbar navbar-expand-lg navbar-light bg-light"
+    class="mt-sm-4 landing-screen-header navbar navbar-expand-lg navbar-light bg-light"
   >
     <span
-      class="navbar-brand"
+      class="logo navbar-brand"
     >
-      Best Tutors
+      <img
+        alt="best tutor"
+        src="file mock"
+        type="image/svg+xml"
+      />
     </span>
     <button
       aria-controls="basic-navbar-nav"
@@ -82,22 +86,288 @@ exports[`Pages:Homepage renders the homepage 1`] = `
     </div>
   </nav>
   <div
-    class="jumbotron"
+    class="landing-screen-jumbotron mt-4 media"
   >
-    <h1>
-      Learn with Ease and at your own pace
-    </h1>
-    <p>
-      This is a simple hero unit, a simple jumbotron-style component for calling extra attention to featured content or information.
-    </p>
-    <p>
-      <button
-        class="btn btn-primary"
-        type="button"
+    <div
+      class="media-body"
+    >
+      <div
+        class="row"
       >
-        Learn more
-      </button>
-    </p>
+        <div
+          class="call-out col-lg-5 col-md-12 col-sm-12"
+        >
+          <h1>
+            Learn with Ease and at your own pace
+          </h1>
+          <p
+            class="mt-4"
+          >
+            Connect with the best minds in any field of study or professional cources of your choice and learn the best way you can.
+          </p>
+          <p>
+            <button
+              class="btn btn-primary"
+              type="button"
+            >
+              Learn more
+            </button>
+          </p>
+        </div>
+        <div
+          class="d-none d-md-block col-lg-7 col-md-0 col-sm-0"
+        >
+          <div
+            class="embed-responsive embed-responsive-16by9"
+          >
+            <embed
+              class="embed-responsive-item"
+              src="file mock"
+              type="image/svg+xml"
+            />
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+  <div
+    class="landing-screen-courses mt-4 mx-auto  row"
+  >
+    <h2>
+      Courses
+    </h2>
+    <div
+      class="courses row"
+    >
+      <div
+        class="mb-4 mr-md-2 mr-lg-4 mr-sm-0 card bg-info text-white"
+        style="max-width: 30rem;"
+      >
+        <div
+          class="card-body"
+        >
+          <img
+            class="card-img-top"
+            src="file mock"
+          />
+          <div
+            class="card-title h5"
+          >
+            Scrum Master
+          </div>
+          <p
+            class="card-text"
+          >
+            A scrum master is the facilitator for an agile development team. Scrum is a methodology that allows a team to self-organize and make changes quickly, in accordance with agile principles. The scrum master manages the process for how information is exchanged.
+          </p>
+        </div>
+      </div>
+      <div
+        class="mb-4 mr-md-2 mr-lg-4 mr-sm-0 card bg-light text-dark"
+        style="max-width: 30rem;"
+      >
+        <div
+          class="card-body"
+        >
+          <img
+            class="card-img-top"
+            src="file mock"
+          />
+          <div
+            class="card-title h5"
+          >
+            JavaScript
+          </div>
+          <p
+            class="card-text"
+          >
+            JavaScript (JS) is a lightweight, interpreted, or just-in-time compiled programming language with first-class functions. While it is most well-known as the scripting language for Web pages, many non-browser environments also use it, such as Node.js, Apache CouchDB and Adobe Acrobat.
+          </p>
+        </div>
+      </div>
+      <div
+        class="mb-4 mr-md-2 mr-lg-4 mr-sm-0 card bg-info text-white"
+        style="max-width: 30rem;"
+      >
+        <div
+          class="card-body"
+        >
+          <img
+            class="card-img-top"
+            src="file mock"
+          />
+          <div
+            class="card-title h5"
+          >
+            DevOps
+          </div>
+          <p
+            class="card-text"
+          >
+            DevOps is a set of practices that combines software development and IT operations. It aims to shorten the systems development life cycle and provide continuous delivery with high software quality.
+          </p>
+        </div>
+      </div>
+      <div
+        class="mb-4 mr-md-2 mr-lg-4 mr-sm-0 card bg-light text-dark"
+        style="max-width: 30rem;"
+      >
+        <div
+          class="card-body"
+        >
+          <img
+            class="card-img-top"
+            src="file mock"
+          />
+          <div
+            class="card-title h5"
+          >
+            Project Management
+          </div>
+          <p
+            class="card-text"
+          >
+            Project management is the practice of leading the work of a team to achieve goals and meet success criteria at a specified time.
+          </p>
+        </div>
+      </div>
+      <div
+        class="mb-4 mr-md-2 mr-lg-4 mr-sm-0 card bg-info text-white"
+        style="max-width: 30rem;"
+      >
+        <div
+          class="card-body"
+        >
+          <img
+            class="card-img-top"
+            src="file mock"
+          />
+          <div
+            class="card-title h5"
+          >
+            Data Science
+          </div>
+          <p
+            class="card-text"
+          >
+            Data science is an inter-disciplinary field that uses scientific methods, processes, algorithms and systems to extract knowledge and insights from many structural and unstructured data.
+          </p>
+        </div>
+      </div>
+      <div
+        class="mb-4 mr-md-2 mr-lg-4 mr-sm-0 card bg-light text-dark"
+        style="max-width: 30rem;"
+      >
+        <div
+          class="card-body"
+        >
+          <img
+            class="card-img-top"
+            src="file mock"
+          />
+          <div
+            class="card-title h5"
+          >
+            Cloud
+          </div>
+          <p
+            class="card-text"
+          >
+            Cloud computing is the on-demand availability of computer system resources, especially data storage and computing power, without direct active management by the user.
+          </p>
+        </div>
+      </div>
+    </div>
+  </div>
+  <div
+    class="mt-2 footer card bg-dark text-white"
+  >
+    <div
+      class="card-body"
+    >
+      <div
+        class="row"
+      >
+        <div
+          class="footer-section col-lg-5 col-md-6 col-sm-12"
+        >
+          <div
+            class="card-title h5"
+          >
+            Best Tutor
+          </div>
+          <p
+            class="card-text"
+          >
+            Best tutor provides the platform for instructors and students to connect. Instructors will have the opportunity to teach the topics of their expertise while students get to learn their desired courses from the best minds around. Sign up today and kick off that opportunity to start a new carrer or learn more about what you already know.
+          </p>
+        </div>
+        <div
+          class="footer-section col-lg-4 col-md-3 col-sm-12"
+        >
+          <div
+            class="card-title h5"
+          >
+            Contact Us
+          </div>
+          <p
+            class="card-text"
+          />
+          <div
+            class="list-group list-group-flush"
+          >
+            <div
+              class="list-group-item"
+            >
+              Phone: +1-612-402-1495
+            </div>
+            <div
+              class="list-group-item"
+            >
+              Email: info@besttutor.com
+            </div>
+          </div>
+          <p />
+        </div>
+        <div
+          class="footer-section col-lg-3 col-md-3 col-sm-12"
+        >
+          <div
+            class="card-title h5"
+          >
+            Our Courses
+          </div>
+          <p
+            class="card-text"
+          />
+          <div
+            class="list-group list-group-flush"
+          >
+            <div
+              class="list-group-item"
+            >
+              Scrum Master
+            </div>
+            <div
+              class="list-group-item"
+            >
+              Project Management
+            </div>
+            <div
+              class="list-group-item"
+            >
+              JavaScript
+            </div>
+            <div
+              class="list-group-item"
+            >
+              DevOps
+            </div>
+          </div>
+          <p />
+        </div>
+      </div>
+    </div>
   </div>
 </DocumentFragment>
 `;

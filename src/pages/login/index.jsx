@@ -1,11 +1,16 @@
 import React from 'react'
-import { Row, Col } from 'react-bootstrap'
+import { Row, Col, ResponsiveEmbed } from 'react-bootstrap'
 import LoginForm from '../../components/organisms/LoginForm'
+import tutors from '../../assets/images/tutor.svg'
 
 const Login = () => {
   return (
     <Row>
-      <Col sm={0} md={0} lg={6} />
+      <Col sm={0} md={0} lg={6} className="d-none d-md-block">
+        <ResponsiveEmbed aspectRatio="16by9">
+          <embed type="image/svg+xml" src={tutors} />
+        </ResponsiveEmbed>
+      </Col>
       <Col sm={12} md={12} lg={6}>
         <LoginForm />
       </Col>

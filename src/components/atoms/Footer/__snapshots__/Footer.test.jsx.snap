@@ -1,0 +1,96 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Footer creates footer 1`] = `
+<DocumentFragment>
+  <div
+    class="mt-2 footer card bg-dark text-white"
+  >
+    <div
+      class="card-body"
+    >
+      <div
+        class="row"
+      >
+        <div
+          class="footer-section col-lg-5 col-md-6 col-sm-12"
+        >
+          <div
+            class="card-title h5"
+          >
+            Best Tutor
+          </div>
+          <p
+            class="card-text"
+          >
+            Best tutor provides the platform for instructors and students to connect. Instructors will have the opportunity to teach the topics of their expertise while students get to learn their desired courses from the best minds around. Sign up today and kick off that opportunity to start a new carrer or learn more about what you already know.
+          </p>
+        </div>
+        <div
+          class="footer-section col-lg-4 col-md-3 col-sm-12"
+        >
+          <div
+            class="card-title h5"
+          >
+            Contact Us
+          </div>
+          <p
+            class="card-text"
+          />
+          <div
+            class="list-group list-group-flush"
+          >
+            <div
+              class="list-group-item"
+            >
+              Phone: +1-612-402-1495
+            </div>
+            <div
+              class="list-group-item"
+            >
+              Email: info@besttutor.com
+            </div>
+          </div>
+          <p />
+        </div>
+        <div
+          class="footer-section col-lg-3 col-md-3 col-sm-12"
+        >
+          <div
+            class="card-title h5"
+          >
+            Our Courses
+          </div>
+          <p
+            class="card-text"
+          />
+          <div
+            class="list-group list-group-flush"
+          >
+            <div
+              class="list-group-item"
+            >
+              Scrum Master
+            </div>
+            <div
+              class="list-group-item"
+            >
+              Project Management
+            </div>
+            <div
+              class="list-group-item"
+            >
+              JavaScript
+            </div>
+            <div
+              class="list-group-item"
+            >
+              DevOps
+            </div>
+          </div>
+          <p />
+        </div>
+      </div>
+    </div>
+  </div>
+</DocumentFragment>
+`;

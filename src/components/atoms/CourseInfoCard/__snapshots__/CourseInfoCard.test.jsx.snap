@@ -1,0 +1,29 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`CourseInfoCard creates course info card 1`] = `
+<DocumentFragment>
+  <div
+    class="mb-4 mr-md-2 mr-lg-4 mr-sm-0 card bg-light text-dark"
+    style="max-width: 30rem;"
+  >
+    <div
+      class="card-body"
+    >
+      <img
+        class="card-img-top"
+        src="devops"
+      />
+      <div
+        class="card-title h5"
+      >
+        Cloud
+      </div>
+      <p
+        class="card-text"
+      >
+        Cloud computing is the on-demand availability of computer system resources, especially data storage and computing power, without direct active management by the user.
+      </p>
+    </div>
+  </div>
+</DocumentFragment>
+`;
