@@ -1,11 +1,14 @@
 import React from 'react'
 import { Navbar, Nav, Button } from 'react-bootstrap'
 import routeTo from '../../../utils/routeTo'
+import logo from '../../../assets/images/logo.svg'
 
 const LandingScreenHeader = () => {
   return (
-    <Navbar bg="light" expand="lg" className="mt-sm-4">
-      <Navbar.Brand onClick={() => routeTo('/')}>Best Tutors</Navbar.Brand>
+    <Navbar bg="light" expand="lg" className="mt-sm-4 landing-screen-header">
+      <Navbar.Brand onClick={() => routeTo('/')} className="logo">
+        <img type="image/svg+xml" src={logo} alt="best tutor" />
+      </Navbar.Brand>
       <Navbar.Toggle aria-controls="basic-navbar-nav" />
       <Navbar.Collapse id="basic-navbar-nav">
         <Nav className="mr-auto">

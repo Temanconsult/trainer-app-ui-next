@@ -1,0 +1,51 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`LandingScreenJumbotron creates landing screen jumbotron 1`] = `
+<DocumentFragment>
+  <div
+    class="landing-screen-jumbotron mt-4 media"
+  >
+    <div
+      class="media-body"
+    >
+      <div
+        class="row"
+      >
+        <div
+          class="call-out col-lg-5 col-md-12 col-sm-12"
+        >
+          <h1>
+            Learn with Ease and at your own pace
+          </h1>
+          <p
+            class="mt-4"
+          >
+            Connect with the best minds in any field of study or professional cources of your choice and learn the best way you can.
+          </p>
+          <p>
+            <button
+              class="btn btn-primary"
+              type="button"
+            >
+              Learn more
+            </button>
+          </p>
+        </div>
+        <div
+          class="d-none d-md-block col-lg-7 col-md-0 col-sm-0"
+        >
+          <div
+            class="embed-responsive embed-responsive-16by9"
+          >
+            <embed
+              class="embed-responsive-item"
+              src="file mock"
+              type="image/svg+xml"
+            />
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</DocumentFragment>
+`;
