@@ -19,23 +19,19 @@ const Footer = () => {
           </Col>
           <Col sm={12} md={3} lg={4} className="footer-section">
             <Card.Title>Contact Us</Card.Title>
-            <Card.Text>
-              <ListGroup variant="flush">
-                <ListGroup.Item>Phone: +1-612-402-1495</ListGroup.Item>
-                <ListGroup.Item>Email: info@besttutor.com</ListGroup.Item>
-              </ListGroup>
-            </Card.Text>
+            <ListGroup variant="flush">
+              <ListGroup.Item>Phone: +1-612-402-1495</ListGroup.Item>
+              <ListGroup.Item>Email: info@besttutor.com</ListGroup.Item>
+            </ListGroup>
           </Col>
           <Col sm={12} md={3} lg={3} className="footer-section">
             <Card.Title>Our Courses</Card.Title>
-            <Card.Text>
-              <ListGroup variant="flush">
-                <ListGroup.Item>Scrum Master</ListGroup.Item>
-                <ListGroup.Item>Project Management</ListGroup.Item>
-                <ListGroup.Item>JavaScript</ListGroup.Item>
-                <ListGroup.Item>DevOps</ListGroup.Item>
-              </ListGroup>
-            </Card.Text>
+            <ListGroup variant="flush">
+              <ListGroup.Item>Scrum Master</ListGroup.Item>
+              <ListGroup.Item>Project Management</ListGroup.Item>
+              <ListGroup.Item>JavaScript</ListGroup.Item>
+              <ListGroup.Item>DevOps</ListGroup.Item>
+            </ListGroup>
           </Col>
         </Row>
       </Card.Body>
