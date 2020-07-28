@@ -4,7 +4,7 @@ import tutors from '../../../assets/images/tutor.svg'
 
 const LandingScreenJumbotron = () => {
   return (
-    <Media className="landing-screen-jumbotron mt-4">
+    <Media className="landing-screen-jumbotron mt-4 p-sm-4">
       <Media.Body>
         <Row>
           <Col sm={12} md={12} lg={5} className="call-out">

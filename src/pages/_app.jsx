@@ -4,7 +4,8 @@ import React from 'react'
 import PropTypes from 'prop-types'
 import { withApollo } from '../utils/apollo'
 
-import LayoutWrapper from '../components/atoms/LayoutWrapper'
+import LayoutWrapper from '../components/organisms/LayoutWrapper'
+
 import '../style/app.scss'
 // uncomment below if using getInitialProps
 // import App from 'next/app'

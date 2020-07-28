@@ -33,9 +33,6 @@ exports[`Footer creates footer 1`] = `
           >
             Contact Us
           </div>
-          <p
-            class="card-text"
-          />
           <div
             class="list-group list-group-flush"
           >
@@ -50,7 +47,6 @@ exports[`Footer creates footer 1`] = `
               Email: info@besttutor.com
             </div>
           </div>
-          <p />
         </div>
         <div
           class="footer-section col-lg-3 col-md-3 col-sm-12"
@@ -60,9 +56,6 @@ exports[`Footer creates footer 1`] = `
           >
             Our Courses
           </div>
-          <p
-            class="card-text"
-          />
           <div
             class="list-group list-group-flush"
           >
@@ -87,7 +80,6 @@ exports[`Footer creates footer 1`] = `
               DevOps
             </div>
           </div>
-          <p />
         </div>
       </div>
     </div>

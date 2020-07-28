@@ -1,8 +1,16 @@
 @import '~bootstrap/scss/bootstrap';
+@import './layout.scss';
 @import './landing-screen/jumbotron.scss';
 @import './footer.scss';
 @import './landing-screen/header.scss';
 @import './landing-screen/courses.scss';
+
+main {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  min-height: 100vh;
+}
 
 .navbar-nav {
   button {

@@ -1,0 +1,184 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`LayoutWrapper creates layout wrapper 1`] = `
+<DocumentFragment>
+  <main
+    class="p-sm-0 container-fluid"
+  >
+    <nav
+      class="mt-sm-4 landing-screen-header navbar navbar-expand-lg navbar-light bg-light"
+    >
+      <span
+        class="logo navbar-brand"
+      >
+        <img
+          alt="best tutor"
+          src="file mock"
+          type="image/svg+xml"
+        />
+      </span>
+      <button
+        aria-controls="basic-navbar-nav"
+        aria-label="Toggle navigation"
+        class="navbar-toggler collapsed"
+        type="button"
+      >
+        <span
+          class="navbar-toggler-icon"
+        />
+      </button>
+      <div
+        class="navbar-collapse collapse"
+        id="basic-navbar-nav"
+      >
+        <div
+          class="mr-auto navbar-nav"
+        >
+          <a
+            class="nav-link"
+            href="#"
+            role="button"
+          >
+            Home
+          </a>
+          <a
+            class="nav-link"
+            href="#"
+            role="button"
+          >
+            About
+          </a>
+          <a
+            class="nav-link"
+            href="#"
+            role="button"
+          >
+            Courses
+          </a>
+          <a
+            class="nav-link"
+            href="#"
+            role="button"
+          >
+            Tutors
+          </a>
+        </div>
+        <div
+          class="navbar-nav"
+        >
+          <a
+            class="nav-link"
+            href="#"
+            role="button"
+          >
+            Become and Instructor
+          </a>
+          <button
+            class="mr-lg-3 mb-lg-0 mb-sm-3 btn btn-outline-primary"
+            type="button"
+          >
+            Login
+          </button>
+          <button
+            class="btn btn-primary"
+            type="button"
+          >
+            SignUp
+          </button>
+        </div>
+      </div>
+    </nav>
+    <div
+      class="row"
+    >
+      <div
+        class="inner-page-wrapper col"
+      >
+        <div />
+      </div>
+    </div>
+    <div
+      class="mt-2 footer card bg-dark text-white"
+    >
+      <div
+        class="card-body"
+      >
+        <div
+          class="row"
+        >
+          <div
+            class="footer-section col-lg-5 col-md-6 col-sm-12"
+          >
+            <div
+              class="card-title h5"
+            >
+              Best Tutor
+            </div>
+            <p
+              class="card-text"
+            >
+              Best tutor provides the platform for instructors and students to connect. Instructors will have the opportunity to teach the topics of their expertise while students get to learn their desired courses from the best minds around. Sign up today and kick off that opportunity to start a new carrer or learn more about what you already know.
+            </p>
+          </div>
+          <div
+            class="footer-section col-lg-4 col-md-3 col-sm-12"
+          >
+            <div
+              class="card-title h5"
+            >
+              Contact Us
+            </div>
+            <div
+              class="list-group list-group-flush"
+            >
+              <div
+                class="list-group-item"
+              >
+                Phone: +1-612-402-1495
+              </div>
+              <div
+                class="list-group-item"
+              >
+                Email: info@besttutor.com
+              </div>
+            </div>
+          </div>
+          <div
+            class="footer-section col-lg-3 col-md-3 col-sm-12"
+          >
+            <div
+              class="card-title h5"
+            >
+              Our Courses
+            </div>
+            <div
+              class="list-group list-group-flush"
+            >
+              <div
+                class="list-group-item"
+              >
+                Scrum Master
+              </div>
+              <div
+                class="list-group-item"
+              >
+                Project Management
+              </div>
+              <div
+                class="list-group-item"
+              >
+                JavaScript
+              </div>
+              <div
+                class="list-group-item"
+              >
+                DevOps
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </main>
+</DocumentFragment>
+`;

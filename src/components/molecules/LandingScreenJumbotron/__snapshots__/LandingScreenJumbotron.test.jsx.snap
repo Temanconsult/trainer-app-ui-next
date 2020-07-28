@@ -3,7 +3,7 @@
 exports[`LandingScreenJumbotron creates landing screen jumbotron 1`] = `
 <DocumentFragment>
   <div
-    class="landing-screen-jumbotron mt-4 media"
+    class="landing-screen-jumbotron mt-4 p-sm-4 media"
   >
     <div
       class="media-body"
