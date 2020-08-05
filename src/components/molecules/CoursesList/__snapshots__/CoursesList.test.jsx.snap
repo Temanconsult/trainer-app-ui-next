@@ -1,0 +1,60 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`CoursesList creates courses list 1`] = `
+<DocumentFragment>
+  <div
+    class=" mt-4 mx-auto row"
+  >
+    <div
+      class="courses row"
+    >
+      <div
+        class="mb-4 mr-md-2 mr-lg-4 mr-sm-0 card bg-light text-dark"
+        style="max-width: 30rem;"
+      >
+        <div
+          class="card-body"
+        >
+          <img
+            class="card-img-top"
+            src="file mock"
+          />
+          <div
+            class="card-title h5"
+          >
+            Name 1
+          </div>
+          <p
+            class="card-text"
+          >
+            Description 1
+          </p>
+        </div>
+      </div>
+      <div
+        class="mb-4 mr-md-2 mr-lg-4 mr-sm-0 card bg-light text-dark"
+        style="max-width: 30rem;"
+      >
+        <div
+          class="card-body"
+        >
+          <img
+            class="card-img-top"
+            src="file mock"
+          />
+          <div
+            class="card-title h5"
+          >
+            Name 2
+          </div>
+          <p
+            class="card-text"
+          >
+            Description 2
+          </p>
+        </div>
+      </div>
+    </div>
+  </div>
+</DocumentFragment>
+`;

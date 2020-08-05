@@ -1,9 +1,15 @@
-import React from 'react'
+import React, { useState, useEffect } from 'react'
 import { Navbar, Nav, Button } from 'react-bootstrap'
 import routeTo from '../../../utils/routeTo'
 import logo from '../../../assets/images/logo.svg'
+import userSignedin from '../../../utils/sessionUtils'
 
 const LandingScreenHeader = () => {
+  const [userSessionPresent, setuserSessionPresent] = useState(false)
+
+  useEffect(() => {
+    setuserSessionPresent(userSignedin())
+  }, [])
   return (
     <Navbar bg="light" expand="lg" className="mt-sm-4 landing-screen-header">
       <Navbar.Brand onClick={() => routeTo('/')} className="logo">
@@ -21,16 +27,20 @@ const LandingScreenHeader = () => {
           <Nav.Link onClick={() => routeTo('/signup')}>
             Become and Instructor
           </Nav.Link>
-          <Button
-            variant="outline-primary"
-            className="mr-lg-3 mb-lg-0 mb-sm-3"
-            onClick={() => routeTo('/login')}
-          >
-            Login
-          </Button>
-          <Button variant="primary" onClick={() => routeTo('/signup')}>
-            SignUp
-          </Button>
+          {!userSessionPresent && (
+            <>
+              <Button
+                variant="outline-primary"
+                className="mr-lg-3 mb-lg-0 mb-sm-3"
+                onClick={() => routeTo('/login')}
+              >
+                Login
+              </Button>
+              <Button variant="primary" onClick={() => routeTo('/signup')}>
+                SignUp
+              </Button>
+            </>
+          )}
         </Nav>
       </Navbar.Collapse>
     </Navbar>

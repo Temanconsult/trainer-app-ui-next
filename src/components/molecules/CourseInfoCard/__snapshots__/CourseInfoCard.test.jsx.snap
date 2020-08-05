@@ -15,14 +15,10 @@ exports[`CourseInfoCard creates course info card 1`] = `
       />
       <div
         class="card-title h5"
-      >
-        Cloud
-      </div>
+      />
       <p
         class="card-text"
-      >
-        Cloud computing is the on-demand availability of computer system resources, especially data storage and computing power, without direct active management by the user.
-      </p>
+      />
     </div>
   </div>
 </DocumentFragment>

@@ -29,7 +29,7 @@ const SignUpForm = () => {
   }, [data])
 
   return (
-    <>
+    <div className="full-width">
       {showConfirmation ? (
         <Alert variant="success">
           <Alert.Heading>Congratulations!</Alert.Heading>
@@ -212,7 +212,7 @@ const SignUpForm = () => {
           </Col>
         </>
       )}
-    </>
+    </div>
   )
 }
 

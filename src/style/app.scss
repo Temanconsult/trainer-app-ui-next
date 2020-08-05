@@ -1,9 +1,10 @@
 @import '~bootstrap/scss/bootstrap';
 @import './layout.scss';
 @import './landing-screen/jumbotron.scss';
+@import './loader.scss';
 @import './footer.scss';
-@import './landing-screen/header.scss';
-@import './landing-screen/courses.scss';
+@import './header.scss';
+@import './courses.scss';
 
 main {
   display: flex;
@@ -20,4 +21,8 @@ main {
 
 .rounded {
   border-radius: 50px !important;
+}
+
+.full-width {
+  width: 100%;
 }
