@@ -3,12 +3,12 @@ import PropTypes from 'prop-types'
 import { Container, Row, Col } from 'react-bootstrap'
 
 import Footer from '../../atoms/Footer'
-import LandingScreenHeader from '../../molecules/LandingScreenHeader'
+import Header from '../../molecules/Header'
 
 const LayoutWrapper = ({ children }) => {
   return (
     <Container fluid as="main" className="p-sm-0">
-      <LandingScreenHeader />
+      <Header />
       <Row>
         <Col className="inner-page-wrapper">{children}</Col>
       </Row>

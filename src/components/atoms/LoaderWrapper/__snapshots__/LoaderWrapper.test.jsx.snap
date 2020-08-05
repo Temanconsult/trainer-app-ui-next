@@ -1,0 +1,22 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`LoaderWrapper creates loader wrapper loading state 1`] = `
+<DocumentFragment>
+  <div
+    class="lds-ellipsis"
+  >
+    <div />
+    <div />
+    <div />
+    <div />
+  </div>
+</DocumentFragment>
+`;
+
+exports[`LoaderWrapper creates loader wrapper none loading state 1`] = `
+<DocumentFragment>
+  <div>
+    Loaded 
+  </div>
+</DocumentFragment>
+`;

@@ -48,7 +48,7 @@ exports[`LandingScreen creates landing screen 1`] = `
     </div>
   </div>
   <div
-    class="landing-screen-courses mt-4 mx-auto  row"
+    class="landing-screen-courses mt-4 mx-auto row"
   >
     <h2>
       Courses

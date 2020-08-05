@@ -23,12 +23,12 @@ const LoginForm = () => {
     if (data && !data.signinUser.error) {
       sessionStorage.setItem('authToken', data.signinUser.jwt)
       sessionStorage.setItem('refreshToken', data.signinUser.user.refreshToken)
-      routeTo('/dashboard')
+      routeTo('/')
     }
   }, [data])
 
   return (
-    <>
+    <div className="full-width">
       {data && data.signinUser.error && (
         <Alert variant="danger">
           <Alert.Heading>Oh snap! You got an error!</Alert.Heading>
@@ -97,7 +97,7 @@ const LoginForm = () => {
           </Form>
         )}
       </Formik>
-    </>
+    </div>
   )
 }
 

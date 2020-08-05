@@ -1,12 +1,18 @@
 import React from 'react'
 import LandingScreenJumbotron from '../../molecules/LandingScreenJumbotron'
-import LandingScreenCourses from '../../molecules/LandingScreenCourses'
+import CoursesList from '../../molecules/CoursesList'
+
+import courses from '../../../utils/courses'
 
 const LandingScreen = () => {
   return (
     <>
       <LandingScreenJumbotron />
-      <LandingScreenCourses />
+      <CoursesList
+        courses={courses}
+        className="landing-screen-courses"
+        showHeading
+      />
     </>
   )
 }
