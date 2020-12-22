@@ -8,6 +8,11 @@ const LandingScreen = () => {
   return (
     <>
       <LandingScreenJumbotron />
+      <CoursesList
+        courses={courses}
+        className="landing-screen-courses"
+        showHeading
+      />
     </>
   )
 }
